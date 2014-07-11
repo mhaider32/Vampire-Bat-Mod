@@ -68,7 +68,7 @@ public class BatItems {
         GameRegistry.registerItem(rawBatMeat, "rawBatMeat");
 
         GameRegistry.registerItem(cookedBatMeat, "cookedBatMeat");
-        EntityList.addMapping(VampireBat.class, "vampireBat", 108, 0x000000, 0xFFFFFF);
+        EntityList.addMapping(VampireBat.class, "vampireBat", 118, 0x000000, 0xFFFFFF);
         EntityRegistry.addSpawn(VampireBat.class, 1, 1, 1, EnumCreatureType.ambient);
         EntityRegistry.registerModEntity(BatarangEntity.class, "batarang",110, this, 30, 1, true);
         MinecraftForge.EVENT_BUS.register(this);
