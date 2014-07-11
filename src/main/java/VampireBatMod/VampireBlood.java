@@ -47,11 +47,5 @@ public class VampireBlood extends ItemFood {
         e.green = 1;
         e.blue = 1;
     }
-    @SubscribeEvent
-    public void BloodFog(EntityViewRenderEvent.FogDensity e) {
-        e.density = 0.1f;
-        if (e.entity.worldObj.isDaytime()) {
-            e.setCanceled(true);
-        }
-    }
+
 }
